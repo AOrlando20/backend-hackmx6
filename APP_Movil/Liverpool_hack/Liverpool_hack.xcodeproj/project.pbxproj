@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EA13DBC2CCCAF26000DBD49 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA13DBB2CCCAF26000DBD49 /* SplashScreen.swift */; };
+		5EA13DBF2CCCAF26000DBD49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA13DBD2CCCAF26000DBD49 /* Main.storyboard */; };
+		5EA13DC42CCCAF28000DBD49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA13DC22CCCAF28000DBD49 /* LaunchScreen.storyboard */; };
+		5EA13DEB2CCCB33E000DBD49 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA13DEA2CCCB338000DBD49 /* Home.swift */; };
+		5EA13DED2CCCB627000DBD49 /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA13DEC2CCCB624000DBD49 /* Explore.swift */; };
+		5EA13DEF2CCCB630000DBD49 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA13DEE2CCCB62A000DBD49 /* Profile.swift */; };
+		5EA13DF12CCCE293000DBD49 /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA13DF02CCCE28A000DBD49 /* JsonData.swift */; };
+		5EA13DF32CCCE558000DBD49 /* Explore2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA13DF22CCCE555000DBD49 /* Explore2.swift */; };
+		5EA13DF72CCCEB45000DBD49 /* output.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EA13DF62CCCEB45000DBD49 /* output.json */; };
+		5EA13DF92CCD1D16000DBD49 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA13DF82CCD1D13000DBD49 /* Results.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EA13DCB2CCCAF28000DBD49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EA13DAC2CCCAF26000DBD49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EA13DB32CCCAF26000DBD49;
+			remoteInfo = Liverpool_hack;
+		};
+		5EA13DD52CCCAF28000DBD49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EA13DAC2CCCAF26000DBD49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EA13DB32CCCAF26000DBD49;
+			remoteInfo = Liverpool_hack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EA13DB42CCCAF26000DBD49 /* Liverpool_hack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liverpool_hack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA13DBB2CCCAF26000DBD49 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		5EA13DBE2CCCAF26000DBD49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EA13DC32CCCAF28000DBD49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EA13DCA2CCCAF28000DBD49 /* Liverpool_hackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Liverpool_hackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA13DD42CCCAF28000DBD49 /* Liverpool_hackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Liverpool_hackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA13DEA2CCCB338000DBD49 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		5EA13DEC2CCCB624000DBD49 /* Explore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
+		5EA13DEE2CCCB62A000DBD49 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		5EA13DF02CCCE28A000DBD49 /* JsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonData.swift; sourceTree = "<group>"; };
+		5EA13DF22CCCE555000DBD49 /* Explore2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore2.swift; sourceTree = "<group>"; };
+		5EA13DF62CCCEB45000DBD49 /* output.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = output.json; sourceTree = "<group>"; };
+		5EA13DF82CCD1D13000DBD49 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5EA13DDC2CCCAF28000DBD49 /* Exceptions for "Liverpool_hack" folder in "Liverpool_hack" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5EA13DB32CCCAF26000DBD49 /* Liverpool_hack */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5EA13DB62CCCAF26000DBD49 /* Liverpool_hack */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5EA13DDC2CCCAF28000DBD49 /* Exceptions for "Liverpool_hack" folder in "Liverpool_hack" target */,
+			);
+			path = Liverpool_hack;
+			sourceTree = "<group>";
+		};
+		5EA13DCD2CCCAF28000DBD49 /* Liverpool_hackTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Liverpool_hackTests;
+			sourceTree = "<group>";
+		};
+		5EA13DD72CCCAF28000DBD49 /* Liverpool_hackUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Liverpool_hackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EA13DB12CCCAF26000DBD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA13DC72CCCAF28000DBD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA13DD12CCCAF28000DBD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EA13DAB2CCCAF26000DBD49 = {
+			isa = PBXGroup;
+			children = (
+				5EA13DE92CCCB322000DBD49 /* Views */,
+				5EA13DE82CCCB315000DBD49 /* Controllers */,
+				5EA13DB62CCCAF26000DBD49 /* Liverpool_hack */,
+				5EA13DCD2CCCAF28000DBD49 /* Liverpool_hackTests */,
+				5EA13DD72CCCAF28000DBD49 /* Liverpool_hackUITests */,
+				5EA13DB52CCCAF26000DBD49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EA13DB52CCCAF26000DBD49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EA13DB42CCCAF26000DBD49 /* Liverpool_hack.app */,
+				5EA13DCA2CCCAF28000DBD49 /* Liverpool_hackTests.xctest */,
+				5EA13DD42CCCAF28000DBD49 /* Liverpool_hackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EA13DE82CCCB315000DBD49 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5EA13DF82CCD1D13000DBD49 /* Results.swift */,
+				5EA13DF62CCCEB45000DBD49 /* output.json */,
+				5EA13DF22CCCE555000DBD49 /* Explore2.swift */,
+				5EA13DF02CCCE28A000DBD49 /* JsonData.swift */,
+				5EA13DEE2CCCB62A000DBD49 /* Profile.swift */,
+				5EA13DEC2CCCB624000DBD49 /* Explore.swift */,
+				5EA13DEA2CCCB338000DBD49 /* Home.swift */,
+				5EA13DBB2CCCAF26000DBD49 /* SplashScreen.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5EA13DE92CCCB322000DBD49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EA13DBD2CCCAF26000DBD49 /* Main.storyboard */,
+				5EA13DC22CCCAF28000DBD49 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EA13DB32CCCAF26000DBD49 /* Liverpool_hack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA13DDD2CCCAF28000DBD49 /* Build configuration list for PBXNativeTarget "Liverpool_hack" */;
+			buildPhases = (
+				5EA13DB02CCCAF26000DBD49 /* Sources */,
+				5EA13DB12CCCAF26000DBD49 /* Frameworks */,
+				5EA13DB22CCCAF26000DBD49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5EA13DB62CCCAF26000DBD49 /* Liverpool_hack */,
+			);
+			name = Liverpool_hack;
+			packageProductDependencies = (
+			);
+			productName = Liverpool_hack;
+			productReference = 5EA13DB42CCCAF26000DBD49 /* Liverpool_hack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EA13DC92CCCAF28000DBD49 /* Liverpool_hackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA13DE22CCCAF28000DBD49 /* Build configuration list for PBXNativeTarget "Liverpool_hackTests" */;
+			buildPhases = (
+				5EA13DC62CCCAF28000DBD49 /* Sources */,
+				5EA13DC72CCCAF28000DBD49 /* Frameworks */,
+				5EA13DC82CCCAF28000DBD49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EA13DCC2CCCAF28000DBD49 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5EA13DCD2CCCAF28000DBD49 /* Liverpool_hackTests */,
+			);
+			name = Liverpool_hackTests;
+			packageProductDependencies = (
+			);
+			productName = Liverpool_hackTests;
+			productReference = 5EA13DCA2CCCAF28000DBD49 /* Liverpool_hackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EA13DD32CCCAF28000DBD49 /* Liverpool_hackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA13DE52CCCAF28000DBD49 /* Build configuration list for PBXNativeTarget "Liverpool_hackUITests" */;
+			buildPhases = (
+				5EA13DD02CCCAF28000DBD49 /* Sources */,
+				5EA13DD12CCCAF28000DBD49 /* Frameworks */,
+				5EA13DD22CCCAF28000DBD49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EA13DD62CCCAF28000DBD49 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5EA13DD72CCCAF28000DBD49 /* Liverpool_hackUITests */,
+			);
+			name = Liverpool_hackUITests;
+			packageProductDependencies = (
+			);
+			productName = Liverpool_hackUITests;
+			productReference = 5EA13DD42CCCAF28000DBD49 /* Liverpool_hackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EA13DAC2CCCAF26000DBD49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5EA13DB32CCCAF26000DBD49 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					5EA13DC92CCCAF28000DBD49 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5EA13DB32CCCAF26000DBD49;
+					};
+					5EA13DD32CCCAF28000DBD49 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5EA13DB32CCCAF26000DBD49;
+					};
+				};
+			};
+			buildConfigurationList = 5EA13DAF2CCCAF26000DBD49 /* Build configuration list for PBXProject "Liverpool_hack" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EA13DAB2CCCAF26000DBD49;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5EA13DB52CCCAF26000DBD49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EA13DB32CCCAF26000DBD49 /* Liverpool_hack */,
+				5EA13DC92CCCAF28000DBD49 /* Liverpool_hackTests */,
+				5EA13DD32CCCAF28000DBD49 /* Liverpool_hackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EA13DB22CCCAF26000DBD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA13DF72CCCEB45000DBD49 /* output.json in Resources */,
+				5EA13DC42CCCAF28000DBD49 /* LaunchScreen.storyboard in Resources */,
+				5EA13DBF2CCCAF26000DBD49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA13DC82CCCAF28000DBD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA13DD22CCCAF28000DBD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EA13DB02CCCAF26000DBD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA13DF92CCD1D16000DBD49 /* Results.swift in Sources */,
+				5EA13DBC2CCCAF26000DBD49 /* SplashScreen.swift in Sources */,
+				5EA13DEF2CCCB630000DBD49 /* Profile.swift in Sources */,
+				5EA13DF32CCCE558000DBD49 /* Explore2.swift in Sources */,
+				5EA13DF12CCCE293000DBD49 /* JsonData.swift in Sources */,
+				5EA13DED2CCCB627000DBD49 /* Explore.swift in Sources */,
+				5EA13DEB2CCCB33E000DBD49 /* Home.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA13DC62CCCAF28000DBD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA13DD02CCCAF28000DBD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EA13DCC2CCCAF28000DBD49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EA13DB32CCCAF26000DBD49 /* Liverpool_hack */;
+			targetProxy = 5EA13DCB2CCCAF28000DBD49 /* PBXContainerItemProxy */;
+		};
+		5EA13DD62CCCAF28000DBD49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EA13DB32CCCAF26000DBD49 /* Liverpool_hack */;
+			targetProxy = 5EA13DD52CCCAF28000DBD49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EA13DBD2CCCAF26000DBD49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA13DBE2CCCAF26000DBD49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EA13DC22CCCAF28000DBD49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA13DC32CCCAF28000DBD49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EA13DDE2CCCAF28000DBD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYMSWNKJ5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Liverpool_hack/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ALXS.Liverpool-hack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EA13DDF2CCCAF28000DBD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYMSWNKJ5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Liverpool_hack/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ALXS.Liverpool-hack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EA13DE02CCCAF28000DBD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EA13DE12CCCAF28000DBD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EA13DE32CCCAF28000DBD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYMSWNKJ5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ALXS.Liverpool-hackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Liverpool_hack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Liverpool_hack";
+			};
+			name = Debug;
+		};
+		5EA13DE42CCCAF28000DBD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYMSWNKJ5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ALXS.Liverpool-hackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Liverpool_hack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Liverpool_hack";
+			};
+			name = Release;
+		};
+		5EA13DE62CCCAF28000DBD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYMSWNKJ5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ALXS.Liverpool-hackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Liverpool_hack;
+			};
+			name = Debug;
+		};
+		5EA13DE72CCCAF28000DBD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYMSWNKJ5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ALXS.Liverpool-hackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Liverpool_hack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EA13DAF2CCCAF26000DBD49 /* Build configuration list for PBXProject "Liverpool_hack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA13DE02CCCAF28000DBD49 /* Debug */,
+				5EA13DE12CCCAF28000DBD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA13DDD2CCCAF28000DBD49 /* Build configuration list for PBXNativeTarget "Liverpool_hack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA13DDE2CCCAF28000DBD49 /* Debug */,
+				5EA13DDF2CCCAF28000DBD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA13DE22CCCAF28000DBD49 /* Build configuration list for PBXNativeTarget "Liverpool_hackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA13DE32CCCAF28000DBD49 /* Debug */,
+				5EA13DE42CCCAF28000DBD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA13DE52CCCAF28000DBD49 /* Build configuration list for PBXNativeTarget "Liverpool_hackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA13DE62CCCAF28000DBD49 /* Debug */,
+				5EA13DE72CCCAF28000DBD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EA13DAC2CCCAF26000DBD49 /* Project object */;
+}
